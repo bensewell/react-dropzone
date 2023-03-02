@@ -304,7 +304,7 @@ export function isMIMEType(v) {
  * @param {string} v
  */
 export function isExt(v) {
-  return /^.*\.[\w]+$/.test(v);
+  return /^.*\.[\w\d]+$/.test(v);
 }
 
 /**
